@@ -1,0 +1,10 @@
+n=int (input("enter the number of terms"))
+list2=[]
+list1=[]
+for i in range(n):
+  m=int (input("ENTER THE NUMBER"))
+  list1.append(m)
+for y in list1:
+  if y>=0:
+    list2.append(y)
+print("OUTPUT",list2)    
